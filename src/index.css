@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* DEFAULT */
+.border-color-primary {
+  border-color: rgb(0, 0, 0, .7);
 }
+.team-profile-bg {
+  background: linear-gradient(#0096D6 15vw, transparent 15vw 100%);
+}
+.banner-bg,
+.btn-primary,
+.nav-pills .nav-link.active {
+  background: #0096D6;
+  border-color: #0096D6;
+  color: #fff;
+}
+.btn-primary:hover,
+.nav-pills .nav-link.active {
+  background: #0184bb;
+  border-color: #0184bb;
+}
+a {
+  color: #0096D6;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+/* loader */
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  margin: auto;
+  aspect-ratio: 4;
+  --c: #000 90%, #0000;
+  background: radial-gradient(circle closest-side at left 6px top 50%, var(--c)), radial-gradient(circle closest-side, var(--c)), radial-gradient(circle closest-side at right 6px top 50%, var(--c));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  animation: l4 1s infinite alternate;
+  z-index: 4;
+}
+@keyframes l4 {
+  to {
+    width: 25px;
+    aspect-ratio: 1;
+  }
 }

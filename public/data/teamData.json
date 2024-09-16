@@ -1,0 +1,161 @@
+[
+  {
+    "id": "p001",
+    "name": "Ahmad Bin Zulkifli",
+    "role": "Front-End Developer",
+    "email": "ahmad.zulkifli@hp.com",
+    "social_media": [
+      {"url": "https://www.linkedin.com/in/ahmad-zulkifli", "icon": "images/icon/icon-linkedin.svg", "name": "LinkedIn"},
+      {"url": "https://www.github.com/ahmadcode", "icon": "images/icon/icon-github.svg", "name": "GitHub"}
+    ],
+    "desc": "4 years of experience in HTML, CSS, JavaScript, and React. Expert in building responsive, user-friendly web pages.",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Responsive Design"],
+    "profile_pic": "ahmad.jpg"
+  },
+  {
+    "id": "p002",
+    "name": "Lim Wei Chen",
+    "role": "Front-End Developer",
+    "email": "lim.weichen@hp.com",
+    "social_media": [{"url": "https://www.linkedin.com/in/limweichen", "icon": "images/icon/icon-linkedin.svg", "name": "LinkedIn"}],
+    "desc": "Specializes in Angular and Vue.js with 5 years of experience. Focused on optimizing front-end performance.",
+    "skills": ["Angular", "Vue.js", "Web Performance Optimization"],
+    "profile_pic": "lim.jpg"
+  },
+  {
+    "id": "p003",
+    "name": "Nur Aisyah Binti Ali",
+    "role": "UX/UI Designer",
+    "email": "nur.aisyah@hp.com",
+    "social_media": [
+      {"url": "https://www.dribbble.com/nuraisyahdesigns", "icon": "images/icon/icon-dribbble.svg", "name": "Dribbble"},
+      {"url": "https://www.behance.net/nuraisyah", "icon": "images/icon/icon-behance.svg", "name": "Behance"}
+    ],
+    "desc": "Creative UX/UI designer with 6 years of experience in mobile-first design, wireframes, and user research.",
+    "skills": ["Figma", "Adobe XD", "Wireframing", "Prototyping"],
+    "profile_pic": "nur.jpg"
+  },
+  {
+    "id": "p004",
+    "name": "Wong Mei Ling",
+    "role": "UX/UI Designer",
+    "email": "wong.meiling@hpl.com",
+    "social_media": [],
+    "desc": "3 years of experience in designing intuitive interfaces for web and mobile apps. Passionate about user-centered design and usability testing.",
+    "skills": ["User-Centered Design", "Usability Testing", "Sketch"],
+    "profile_pic": "wong.jpg"
+  },
+  {
+    "id": "p005",
+    "name": "Suresh Kumar",
+    "role": "Back-End Developer",
+    "email": "suresh.kumar@hp.com",
+    "social_media": [
+      {"url": "https://www.github.com/sureshcode", "icon": "images/icon/icon-github.svg", "name": "GitHub"},
+      {"url": "https://www.linkedin.com/in/suresh-kumar", "icon": "images/icon/icon-linkedin.svg", "name": "LinkedIn"}
+    ],
+    "desc": "Senior back-end developer with 8 years of experience in Node.js, Python, and PHP. Skilled in database management and API development.",
+    "skills": ["Node.js", "Python", "PHP", "MySQL", "API Development"],
+    "profile_pic": "suresh.jpg"
+  },
+  {
+    "id": "p006",
+    "name": "Tan Kok Leong",
+    "role": "Back-End Developer",
+    "email": "tan.leong@hp.com",
+    "social_media": [],
+    "desc": "Expertise in Java and Ruby on Rails. 7 years of experience building scalable web applications for e-commerce platforms.",
+    "skills": ["Java", "Ruby on Rails", "PostgreSQL", "E-commerce"],
+    "profile_pic": "tan.jpg"
+  },
+  {
+    "id": "p007",
+    "name": "Zainab Binti Hassan",
+    "role": "Project Manager",
+    "email": "zainab.hassan@hp.com",
+    "social_media": [{"url": "https://www.linkedin.com/in/zainab-hassan", "icon": "images/icon/icon-linkedin.svg", "name": "LinkedIn"}],
+    "desc": "Project manager with 10 years of experience leading Agile teams. Certified Scrum Master with a strong background in software development and delivery.",
+    "skills": ["Agile", "Scrum", "Project Planning", "Team Leadership"],
+    "profile_pic": "zainab.jpg"
+  },
+  {
+    "id": "p008",
+    "name": "Rani Subramaniam",
+    "role": "Project Manager",
+    "email": "rani.subramaniam@hp.com",
+    "social_media": [{"url": "https://www.linkedin.com/in/rani-subramaniam", "icon": "images/icon/icon-linkedin.svg", "name": "LinkedIn"}],
+    "desc": "12 years of experience in managing large-scale IT projects. PMP-certified and proficient in resource allocation, budgeting, and team management.",
+    "skills": ["PMP", "Budgeting", "Resource Allocation", "Scheduling"],
+    "profile_pic": "rani.jpg"
+  },
+  {
+    "id": "p009",
+    "name": "Muhammad Firdaus",
+    "role": "Full Stack Developer",
+    "email": "muhammad.firdaus@hp.com",
+    "social_media": [],
+    "desc": "Full stack developer with expertise in MERN stack (MongoDB, Express, React, Node.js). 6 years of experience developing end-to-end web applications.",
+    "skills": ["MongoDB", "Express", "React", "Node.js", "JavaScript"],
+    "profile_pic": "muhammad.jpg"
+  },
+  {
+    "id": "p010",
+    "name": "Ganesh Pillai",
+    "role": "SEO Specialist",
+    "email": "ganesh.pillai@hp.com",
+    "social_media": [{"url": "https://www.twitter.com/ganeshSEO", "icon": "images/icon/icon-twitter.svg", "name": "Twitter"}],
+    "desc": "SEO expert with 5 years of experience in improving website rankings and organic traffic. Skilled in keyword research, on-page optimization, and Google Analytics.",
+    "skills": ["SEO", "Keyword Research", "Google Analytics", "SEMrush"],
+    "profile_pic": "ganesh.jpg"
+  },
+  {
+    "id": "p011",
+    "name": "Tan Siew Mei",
+    "role": "Digital Marketing Specialist",
+    "email": "tan.siewmei@hp.com",
+    "social_media": [],
+    "desc": "7 years of experience in digital marketing strategy, specializing in content marketing, PPC, and social media campaigns.",
+    "skills": ["PPC", "Content Marketing", "Social Media Ads", "SEM"],
+    "profile_pic": "tansiew.jpg"
+  },
+  {
+    "id": "p012",
+    "name": "Azman Bin Rosli",
+    "role": "DevOps Engineer",
+    "email": "azman.rosli@hp.com",
+    "social_media": [{"url": "https://www.linkedin.com/in/azman-rosli", "icon": "images/icon/icon-linkedin.svg", "name": "LinkedIn"}],
+    "desc": "DevOps engineer with 6 years of experience in cloud infrastructure (AWS, Azure), automation (Docker, Kubernetes), and CI/CD pipelines.",
+    "skills": ["AWS", "Azure", "Docker", "Kubernetes", "CI/CD Automation"],
+    "profile_pic": "azman.jpg"
+  },
+  {
+    "id": "p013",
+    "name": "Bala Chandran",
+    "role": "Data Analyst",
+    "email": "bala.chandran@hp.com",
+    "social_media": [{"url": "https://www.linkedin.com/in/balachandran", "icon": "images/icon/icon-linkedin.svg", "name": "LinkedIn"}],
+    "desc": "Data analyst with 4 years of experience in data visualization, SQL, and Python. Expertise in transforming data into actionable business insights.",
+    "skills": ["SQL", "Python", "Data Visualization", "Power BI"],
+    "profile_pic": "bala.jpg"
+  },
+  {
+    "id": "p014",
+    "name": "Aina Binti Zakaria",
+    "role": "Mobile App Developer",
+    "email": "aina.zakaria@hp.com",
+    "social_media": [],
+    "desc": "Mobile app developer with 5 years of experience in building Android and iOS apps. Skilled in Swift, Kotlin, and Flutter.",
+    "skills": ["Swift", "Kotlin", "Flutter", "Android Development"],
+    "profile_pic": "aina.jpg"
+  },
+  {
+    "id": "p015",
+    "name": "Kumaravel Rajan",
+    "role": "QA Engineer",
+    "email": "kumaravel.rajan@hp.com",
+    "social_media": [{"url": "https://www.twitter.com/kumaravelQA", "icon": "images/icon/icon-twitter.svg", "name": "Twitter"}],
+    "desc": "QA engineer with 6 years of experience in manual and automated testing. Expertise in Selenium, JIRA, and test-driven development.",
+    "skills": ["Selenium", "JIRA", "Test Automation", "TDD", "Manual Testing"],
+    "profile_pic": "kumaravel.jpg"
+  }
+]
