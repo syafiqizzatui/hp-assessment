@@ -1,25 +1,97 @@
 /* DEFAULT */
 .border-color-primary {
-  border-color: rgb(0, 0, 0, .7);
+  border-color: rgb(0, 0, 0, 0.7);
 }
 .team-profile-bg {
-  background: linear-gradient(#0096D6 15vw, transparent 15vw 100%);
+  background: linear-gradient(#0096d6 15vw, transparent 15vw 100%);
 }
 .banner-bg,
 .btn-primary,
-.nav-pills .nav-link.active {
-  background: #0096D6;
-  border-color: #0096D6;
+.nav-wrapper .navbar-nav .nav-item.active {
+  background: #0096d6;
+  border-color: #0096d6;
   color: #fff;
 }
 .btn-primary:hover,
-.nav-pills .nav-link.active {
+.nav-wrapper .navbar-nav .nav-item:hover a,
+.nav-wrapper .navbar-nav .nav-item a.active {
   background: #0184bb;
   border-color: #0184bb;
+  color: rgb(248 249 250) !important;
 }
 a {
-  color: #0096D6;
-
+  color: #0096d6;
+}
+/* Navbar */
+.navbar {
+  position: relative;
+}
+.nav-wrapper .navbar-nav a {
+  display: block;
+  border-radius: .25em;
+  color: #000 !important;
+  text-decoration: none;
+  padding: 0.375rem 0.75rem;
+}
+@media (min-width: 768px) {
+  .nav-wrapper .navbar-nav .nav-item {
+    margin-right: .25em;
+  }
+  .nav-wrapper .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .nav-wrapper {
+    position: absolute;
+    width: 300px;
+    background: #FFF;
+    top: 100%;
+    right: 0;
+  }
+  .nav-wrapper .navbar-nav {
+    border: 1px solid #dee2e6;
+    align-items: start
+  }
+  .nav-wrapper .navbar-nav .nav-item {
+    width: 100%;
+    border-bottom: 1px solid #dee2e6;
+    position: relative;
+  }
+  .nav-wrapper .navbar-nav .nav-item:after {
+    content: ">";
+    position: absolute;
+    right: 10px;
+    top: 6px;
+  }
+  .nav-wrapper .navbar-nav .nav-item:last-child {
+    border-bottom: none;
+  }
+  .nav-wrapper .navbar-nav .nav-item a {
+    border-radius: 0;
+  }
+  .nav-wrapper .navbar-nav .nav-item:hover a,
+  .nav-wrapper .navbar-nav .nav-item a.active {
+    background-color: #0184bb !important;
+    border: none;
+  }
+}
+/* Cards */
+.card > a.avatar-wrapper {
+  overflow: hidden;
+  border-style: solid;
+}
+.card > a.avatar-wrapper img,
+.card > a.avatar-wrapper {
+  -webkit-transition: all 1s ease;
+  transition: all .5s ease;
+}
+.card > a.avatar-wrapper:hover img {
+  -webkit-transform:scale(2);
+  transform:scale(1.25);
+}
+.card > a.avatar-wrapper:hover {
+  border-color: #0096d6;
 }
 /* loader */
 .loader {

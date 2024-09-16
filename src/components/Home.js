@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react';
 import {Container, Row, Col} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
-const PageNotFound = () => {
+const Home = () => {
   return (
     <Container>
       <Row className="py-lg-5">
         <Col md={8} className="mx-auto">
           <div className="text-center mt-4">
-            <h1 className="fw-bold">404</h1>
-            <h3 className="mb-3">Page not found</h3>
-            <Link to="/" className="btn btn-primary" role="button">
-              Back to Home
+            <h1 className="fw-bold">Welcome</h1>
+            <h3 className="mb-3">Click the button below to go to the team list page</h3>
+            <Link to="/team" className="btn btn-primary" role="button">
+              Team list page
             </Link>
           </div>
         </Col>
@@ -20,4 +20,4 @@ const PageNotFound = () => {
   );
 };
 
-export default PageNotFound;
+export default Home;

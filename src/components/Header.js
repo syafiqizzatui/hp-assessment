@@ -1,22 +1,32 @@
-import React from 'react';
-import { Container, Navbar, Nav } from 'react-bootstrap';
+import React, {useState} from "react";
+import {Container, Navbar, Nav, Button} from "react-bootstrap";
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+
   return (
     <header className="border-bottom mb-4">
       <Navbar expand="md" className="py-3">
-        <Container className="d-flex flex-wrap justify-content-center">
-          <Navbar.Brand href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+        <Container className="flex-grow-1">
+          <Navbar.Brand href="/" className="mb-md-3 mb-0 mb-md-0 me-auto text-decoration-none">
             <span className="fs-4 fw-bold">LOGO</span>
           </Navbar.Brand>
-          <Nav className="nav-pills">
-            <Nav.Item>
-              <Nav.Link href="#">Home</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link href="#" className="active text-light">Our People</Nav.Link>
-            </Nav.Item>
-          </Nav>
+          <Button className="navbar-toggler border-0 bg-transparent" type="button" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onClick={handleNavCollapse}>
+            <span className="navbar-toggler-icon"></span>
+          </Button>
+          <div className="nav-wrapper">
+            <Nav className={`${isNavCollapsed ? "collapse" : "hidden"} navbar-collapse`}>
+              <Nav.Item>
+                <NavLink to="/" className={({ isActive }) => (isActive ? "active active px-3" : "nav-link text-light px-3")} onClick={handleNavCollapse}>Home</NavLink>
+              </Nav.Item>
+              <Nav.Item>
+                <NavLink to="/team" className={({ isActive }) => (isActive ? "active active px-3" : "nav-link text-light px-3")} onClick={handleNavCollapse}>Our People</NavLink>
+              </Nav.Item>
+            </Nav>
+          </div>
         </Container>
       </Navbar>
     </header>

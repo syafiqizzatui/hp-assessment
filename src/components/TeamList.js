@@ -36,9 +36,9 @@ const TeamList = () => {
           <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-5">
             {teams.map((member) => (
               <Col className="card-wrapper" key={member.id}>
-                <Card className="border-0 p-3">
-                  <Link to={"/team/" + member.id} className="stretched-link text-decoration-none">
-                    <Image src={"images/avatar/" + member.profile_pic} roundedCircle fluid thumbnail className="border-5 p-0 border-color-primary" alt={member.name} title={member.name} />
+                <Card className="border-0 mx-3 mt-5 mb-3">
+                  <Link to={"/team/" + member.id} className="avatar-wrapper stretched-link text-decoration-none  border-color-primary border-5 rounded-circle">
+                    <Image src={"images/avatar/" + member.profile_pic}  fluid className="p-0" alt={member.name} title={member.name} />
                   </Link>
                   <Card.Body className="text-center">
                     <Card.Title as="h4" className="fw-bold">
